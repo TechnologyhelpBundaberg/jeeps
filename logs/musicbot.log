@@ -1,0 +1,176 @@
+[35.505056381] 2018-01-14 17:23:21,858 - INFO - launcher: Starting sanity checks
+[36.005020142] 2018-01-14 17:23:21,859 - INFO - launcher: Checking for Python 3.5+
+[36.505222321] 2018-01-14 17:23:21,859 - INFO - launcher: Checking console encoding
+[36.505222321] 2018-01-14 17:23:21,859 - INFO - launcher: Setting console encoding to UTF-8
+[36.505222321] 2018-01-14 17:23:21,859 - INFO - launcher: Ensuring we're in the right environment
+[38.005113602] 2018-01-14 17:23:21,861 - INFO - launcher: Adding local bins/ folder to path
+[39.005756378] 2018-01-14 17:23:21,862 - INFO - launcher: Required checks passed.
+[39.506196976] 2018-01-14 17:23:21,862 - INFO - launcher: Optional checks passed.
+[39.506196976] 2018-01-14 17:23:21,862 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.7042191028594971] 2018-01-14 17:23:23,527 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 213 in _setup_logging: Set logging level to INFO
+[1.7042191028594971] 2018-01-14 17:23:23,527 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[1.7052175998687744] 2018-01-14 17:23:23,528 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[1.707219362] launcher-INFO: Connecting
+[4.1033778190612793] 2018-01-14 17:23:25,926 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 1011 in on_ready: Connection established, ready to go.
+[4.1038787364959717] 2018-01-14 17:23:25,926 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 324 in _cache_app_info: Caching app info
+[4.1511702537536621] 2018-01-14 17:23:25,974 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[4.1526446342468262] 2018-01-14 17:23:25,975 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 844 in _scheck_server_permissions: Checking server permissions
+[4.1526446342468262] 2018-01-14 17:23:25,975 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[4.1531457901000977] 2018-01-14 17:23:25,976 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 852 in _scheck_configs: Validating config
+[4.1531457901000977] 2018-01-14 17:23:25,976 - DEBUG - musicbot.config | In config.py::MainThread(4752), line 155 in async_validate: Validating options...
+[4.1531457901000977] 2018-01-14 17:23:25,976 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 855 in _scheck_configs: Validating permissions config
+[4.1531457901000977] 2018-01-14 17:23:25,976 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4752), line 59 in async_validate: Validating permissions...
+[4.1536483764648438] 2018-01-14 17:23:25,976 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1022 in on_ready: Connected to Discord!
+[4.1546466350555420] 2018-01-14 17:23:25,977 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1032 in on_ready: Bot:   402211201565851668/Music-bot#9903 [BOT]
+[4.1551454067230225] 2018-01-14 17:23:25,978 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1040 in on_ready: Owner: 285441389083492352/exwingzero#5672
+
+[4.1551454067230225] 2018-01-14 17:23:25,978 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1043 in on_ready: Server List:
+[4.1556494235992432] 2018-01-14 17:23:25,978 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1044 in <listcomp>:  - mer
+[4.1561450958251953] 2018-01-14 17:23:25,979 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1088 in on_ready: Not bound to any text channels
+[4.1566452980041504] 2018-01-14 17:23:25,979 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1114 in on_ready: Not autojoining any voice channels
+[4.1571452617645264] 2018-01-14 17:23:25,980 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1118 in on_ready: Options:
+[4.1576454639434814] 2018-01-14 17:23:25,980 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1120 in on_ready:   Command prefix: !
+[4.1581456661224365] 2018-01-14 17:23:25,981 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1121 in on_ready:   Default volume: 25%
+[4.1581456661224365] 2018-01-14 17:23:25,981 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[4.1586472988128662] 2018-01-14 17:23:25,981 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[4.1591453552246094] 2018-01-14 17:23:25,982 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1125 in on_ready:   Auto-Summon: Enabled
+[4.1596724987030029] 2018-01-14 17:23:25,982 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1126 in on_ready:   Auto-Playlist: Enabled
+[4.1596724987030029] 2018-01-14 17:23:25,982 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1127 in on_ready:   Auto-Pause: Enabled
+[4.1606526374816895] 2018-01-14 17:23:25,983 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1128 in on_ready:   Delete Messages: Enabled
+[4.1616461277008057] 2018-01-14 17:23:25,984 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1130 in on_ready:     Delete Invoking: Disabled
+[4.1621463298797607] 2018-01-14 17:23:25,985 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1131 in on_ready:   Debug Mode: Disabled
+[4.1626474857330322] 2018-01-14 17:23:25,985 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 1132 in on_ready:   Downloaded songs will be saved
+[4.1636471748352051] 2018-01-14 17:23:25,986 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 252 in _join_startup_channels: Found resumable voice channel mer/#chillmusic
+[4.1641473770141602] 2018-01-14 17:23:25,987 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 258 in _join_startup_channels: Found owner in "#chillmusic"
+[4.1646466255187988] 2018-01-14 17:23:25,987 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 267 in _join_startup_channels: Attempting to join mer/#chillmusic
+[4.1651465892791748] 2018-01-14 17:23:25,988 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 437 in get_voice_client: Connection attempt 1 to #chillmusic
+[4.1656475067138672] 2018-01-14 17:23:25,988 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[4.1656475067138672] 2018-01-14 17:23:25,988 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[4.1661467552185059] 2018-01-14 17:23:25,989 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.2186543941497803] 2018-01-14 17:23:26,041 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 2552 in on_voice_state_update: Resumed voice connection to mer/#chillmusic
+[4.2191531658172607] 2018-01-14 17:23:26,042 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 2564 in on_voice_state_update: Voice state update for 402211201565851668/Music-bot#9903 on mer/#chillmusic -> [RESUME, CONNECT]
+[4.2191531658172607] 2018-01-14 17:23:26,042 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.2311568260192871] 2018-01-14 17:23:26,054 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[4.3965973854064941] 2018-01-14 17:23:26,219 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[4.3970973491668701] 2018-01-14 17:23:26,220 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 463 in get_voice_client: Connected in 0.2s
+[4.3970973491668701] 2018-01-14 17:23:26,220 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 464 in get_voice_client: Connected to mer/#chillmusic
+[4.3975975513458252] 2018-01-14 17:23:26,220 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 805 in deserialize_queue: Deserializing queue for 402208071134216193
+[4.5921702384948730] 2018-01-14 17:23:26,415 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 555 in get_player: Created player via deserialization for server 402208071134216193 with 1 entries
+[4.5921702384948730] 2018-01-14 17:23:26,415 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 283 in _join_startup_channels: Joined mer/#chillmusic
+[4.5931541919708252] 2018-01-14 17:23:26,416 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4752), line 311 in websocket_check: Starting websocket check loop for mer
+[4.5936539173126221] 2018-01-14 17:23:26,416 - FFMPEG - musicbot.player | In player.py::MainThread(4752), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-uqzQfOKZoPc-Zeds_Dead_x_Diplo_ft_Elliphant_-_Blame.webm
+[4.5996553897857666] 2018-01-14 17:23:26,422 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[61.1380829811096191] 2018-01-14 17:24:22,961 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !queue
+[77.4106578826904297] 2018-01-14 17:24:39,233 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 2564 in on_voice_state_update: Voice state update for 285441389083492352/exwingzero#5672 on mer/#chillmusic -> [MUTE, DEAFEN]
+[118.5754041671752930] 2018-01-14 17:25:20,398 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4752), line 2564 in on_voice_state_update: Voice state update for 285441389083492352/exwingzero#5672 on mer/#chillmusic -> [UNMUTE, UNDEAFEN]
+[123.2713239192962646] 2018-01-14 17:25:25,094 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !play https://www.youtube.com/watch?v=AQBh9soLSkI
+[126.9289040565490723] 2018-01-14 17:25:28,752 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[128.8688619136810303] 2018-01-14 17:25:30,691 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !skip
+[128.8803634643554688] 2018-01-14 17:25:30,703 - FFMPEG - musicbot.player | In player.py::MainThread(4752), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/AQBh9soLSkI.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r6---sn-ab5l6nzr.googlevideo.com/ei/19hbWtTJGIX7hgaKtIrQBg/playlist_type/DVR/gcr/us/mm/32/mn/sn-ab5l6nzr/ms/lv/mv/m/pl/16/dover/8/keepalive/yes/mt/1515968604/ip/74.71.125.200/ipbits/0/expire/1515990327/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,ei,playlist_type,gcr,mm,mn,ms,mv,pl/signature/11062875ED3B82F372C7CA66B8C600A2E8005509.22119D42BDBFD5B16DD99B7752E8BBE4E1BB62DA/key/dg_yt0/playlist/index.m3u8
+[128.8938646316528320] 2018-01-14 17:25:30,716 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[128.8948650360107422] 2018-01-14 17:25:30,717 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[339.2989349365234375] 2018-01-14 17:29:01,122 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !help
+[447.3524737358093262] 2018-01-14 17:30:49,175 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !stream  https://www.youtube.com/watch?v=AQBh9soLSkI
+[447.5027461051940918] 2018-01-14 17:30:49,325 - ERROR - musicbot.bot | In bot.py::MainThread(4752), line 2515 in on_message: Error in stream: ExtractionError: This is not a stream, this is a file path.
+Traceback (most recent call last):
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 517, in _request_webpage
+    return self._downloader.urlopen(url_or_request)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 2198, in urlopen
+    return self._opener.open(req, timeout=self._socket_timeout)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 549, in _open
+    'unknown_open', req)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 1388, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: ytsearch>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 784, in extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 438, in extract
+    ie_result = self._real_extract(url)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\generic.py", line 2103, in _real_extract
+    full_response = self._request_webpage(request, video_id)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 526, in _request_webpage
+    raise ExtractorError(errmsg, sys.exc_info()[2], cause=err)
+youtube_dl.utils.ExtractorError: Unable to download webpage: <urlopen error unknown url type: ytsearch> (caused by URLError('unknown url type: ytsearch',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Discord\MusicBot\musicbot\playlist.py", line 110, in add_stream_entry
+    info = await self.downloader.extract_info(self.loop, song_url, download=False)
+  File "E:\Discord\MusicBot\musicbot\downloader.py", line 83, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\concurrent\futures\thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 795, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 856, in process_ie_result
+    extra_info=extra_info)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 807, in extract_info
+    self.report_error(compat_str(e), e.format_traceback())
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 612, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\Joseph\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 582, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: Unable to download webpage: <urlopen error unknown url type: ytsearch> (caused by URLError('unknown url type: ytsearch',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Discord\MusicBot\musicbot\bot.py", line 2502, in on_message
+    response = await handler(**handler_kwargs)
+  File "E:\Discord\MusicBot\musicbot\bot.py", line 1604, in cmd_stream
+    await player.playlist.add_stream_entry(song_url, channel=channel, author=author)
+  File "E:\Discord\MusicBot\musicbot\playlist.py", line 118, in add_stream_entry
+    raise ExtractionError("This is not a stream, this is a file path.")
+musicbot.exceptions.ExtractionError: This is not a stream, this is a file path.
+[468.8021924495697021] 2018-01-14 17:31:10,625 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !save
+[468.8031909465789795] 2018-01-14 17:31:10,626 - ERROR - musicbot.bot | In bot.py::MainThread(4752), line 2515 in on_message: Error in save: CommandError: There is no valid song playing.
+Traceback (most recent call last):
+  File "E:\Discord\MusicBot\musicbot\bot.py", line 2502, in on_message
+    response = await handler(**handler_kwargs)
+  File "E:\Discord\MusicBot\musicbot\bot.py", line 1261, in cmd_save
+    raise exceptions.CommandError('There is no valid song playing.')
+musicbot.exceptions.CommandError: There is no valid song playing.
+[639.9357287883758545] 2018-01-14 17:34:01,758 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !pldump
+[735.5275435447692871] 2018-01-14 17:35:37,350 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !help
+[744.8301174640655518] 2018-01-14 17:35:46,653 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !skip
+[746.6093335151672363] 2018-01-14 17:35:48,432 - INFO - musicbot.entry | In entry.py::MainThread(4752), line 219 in _really_download: Download started: https://youtube.com/watch?v=_mwL6R-Z1e4
+[748.0720603466033936] 2018-01-14 17:35:49,895 - INFO - musicbot.entry | In entry.py::MainThread(4752), line 226 in _really_download: Download complete: https://youtube.com/watch?v=_mwL6R-Z1e4
+[748.6059882640838623] 2018-01-14 17:35:50,429 - FFMPEG - musicbot.player | In player.py::MainThread(4752), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-_mwL6R-Z1e4-Emalkay_-_When_I_Look_At_You.webm
+[748.6139869689941406] 2018-01-14 17:35:50,437 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[750.6801981925964355] 2018-01-14 17:35:52,503 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !pldump https://www.youtube.com/watch?v=AQBh9soLSkI&list=PL_c9F-DyBmbboc6cFJ84WDuoyIoBS4Y99
+[750.6851990222930908] 2018-01-14 17:35:52,508 - ERROR - musicbot.bot | In bot.py::MainThread(4752), line 2515 in on_message: Error in pldump: CommandError: This does not seem to be a playlist.
+Traceback (most recent call last):
+  File "E:\Discord\MusicBot\musicbot\bot.py", line 2502, in on_message
+    response = await handler(**handler_kwargs)
+  File "E:\Discord\MusicBot\musicbot\bot.py", line 2118, in cmd_pldump
+    raise exceptions.CommandError("This does not seem to be a playlist.", expire_in=25)
+musicbot.exceptions.CommandError: This does not seem to be a playlist.
+[757.7217917442321777] 2018-01-14 17:35:59,544 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !skip
+[759.5656933784484863] 2018-01-14 17:36:01,388 - INFO - musicbot.entry | In entry.py::MainThread(4752), line 219 in _really_download: Download started: https://youtube.com/watch?v=Ygf_yk5QJXY
+[760.9286234378814697] 2018-01-14 17:36:02,751 - INFO - musicbot.entry | In entry.py::MainThread(4752), line 226 in _really_download: Download complete: https://youtube.com/watch?v=Ygf_yk5QJXY
+[761.5582756996154785] 2018-01-14 17:36:03,381 - FFMPEG - musicbot.player | In player.py::MainThread(4752), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Ygf_yk5QJXY-Future_Bass_-_Richard_Caddock_Hyper_Potions_-_Distance_Monstercat_Release.webm
+[761.5672268867492676] 2018-01-14 17:36:03,390 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[767.1710405349731445] 2018-01-14 17:36:08,994 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !play https://www.youtube.com/watch?v=AQBh9soLSkI&list=PL_c9F-DyBmbboc6cFJ84WDuoyIoBS4Y99
+[768.9305434226989746] 2018-01-14 17:36:10,753 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[776.7512199878692627] 2018-01-14 17:36:18,574 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !skip
+[776.7682211399078369] 2018-01-14 17:36:18,591 - FFMPEG - musicbot.player | In player.py::MainThread(4752), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/AQBh9soLSkI.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r6---sn-ab5l6nzy.googlevideo.com/gcr/us/ei/WdtbWvWaB9Ta8gSqoKEg/playlist_type/DVR/mm/32/mn/sn-ab5l6nzy/ms/lv/mv/m/pl/16/dover/8/keepalive/yes/mt/1515969312/ip/74.71.125.200/ipbits/0/expire/1515990969/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,gcr,ei,playlist_type,mm,mn,ms,mv,pl/signature/731AE35D0433173B46D95D49795AE4D78E2DFB92.949AC92C3AC17A89948BA2A992653E12EEBF709C/key/dg_yt0/playlist/index.m3u8
+[776.7782223224639893] 2018-01-14 17:36:18,601 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[776.7797226905822754] 2018-01-14 17:36:18,602 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[889.9360785484313965] 2018-01-14 17:38:11,759 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !play https://www.youtube.com/watch?v=AQBh9soLSkI&list=PL_c9F-DyBmbboc6cFJ84WDuoyIoBS4Y99
+[891.8183763027191162] 2018-01-14 17:38:13,641 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[892.9825949668884277] 2018-01-14 17:38:14,805 - INFO - musicbot.bot | In bot.py::MainThread(4752), line 2395 in on_message: 285441389083492352/exwingzero#5672: !skip
+[893.0005958080291748] 2018-01-14 17:38:14,823 - FFMPEG - musicbot.player | In player.py::MainThread(4752), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/AQBh9soLSkI.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r1---sn-ab5l6nzl.googlevideo.com/playlist_type/DVR/ei/09tbWqaOPI2xhwb_jJ6ACA/gcr/us/mm/32/mn/sn-ab5l6nzl/ms/lv/mv/m/pl/16/dover/8/keepalive/yes/mt/1515969433/ip/74.71.125.200/ipbits/0/expire/1515991092/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,playlist_type,ei,gcr,mm,mn,ms,mv,pl/signature/10F3521C2378527336CF2B093A26F739829F4EB9.2F25F4B7D67708C68C8E4A5E1AECCDDDAEB95806/key/dg_yt0/playlist/index.m3u8
+[893.0135979652404785] 2018-01-14 17:38:14,836 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
+[893.0150971412658691] 2018-01-14 17:38:14,838 - DEBUG - musicbot.bot | In bot.py::MainThread(4752), line 781 in serialize_queue: Serializing queue for 402208071134216193
